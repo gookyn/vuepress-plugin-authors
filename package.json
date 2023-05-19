@@ -1,0 +1,35 @@
+{
+  "name": "vuepress-plugin-authors",
+  "version": "1.0.0",
+  "description": "VuePress plugin - Add custom authors",
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "plugin",
+    "authors"
+  ],
+  "homepage": "https://github.com/gookyn/vuepress-plugin-authors",
+  "bugs": {
+    "url": "https://github.com/gookyn/vuepress-plugin-authors/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gookyn/vuepress-plugin-authors.git"
+  },
+  "license": "MIT",
+  "author": "gookyn",
+  "type": "module",
+  "main": "./lib/node/index.js",
+  "types": "./lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "typescript": "^5.0.4"
+  }
+}
