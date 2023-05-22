@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-custom-authors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VuePress plugin - Add custom authors",
   "keywords": [
     "vuepress",
