@@ -1,1 +1,1 @@
-export * from './authors-plugin.js';
+export * from './custom-authors-plugin.js';

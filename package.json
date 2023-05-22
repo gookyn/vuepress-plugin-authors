@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-plugin-authors",
+  "name": "vuepress-plugin-custom-authors",
   "version": "1.0.0",
   "description": "VuePress plugin - Add custom authors",
   "keywords": [
@@ -8,13 +8,13 @@
     "plugin",
     "authors"
   ],
-  "homepage": "https://github.com/gookyn/vuepress-plugin-authors",
+  "homepage": "https://github.com/gookyn/vuepress-plugin-custom-authors",
   "bugs": {
-    "url": "https://github.com/gookyn/vuepress-plugin-authors/issues"
+    "url": "https://github.com/gookyn/vuepress-plugin-custom-authors/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gookyn/vuepress-plugin-authors.git"
+    "url": "git+https://github.com/gookyn/vuepress-plugin-custom-authors.git"
   },
   "license": "MIT",
   "author": "gookyn",

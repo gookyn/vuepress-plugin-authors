@@ -2,10 +2,10 @@ interface AuthorOptions {
   label?: string;
 }
 
-export const authorsPlugin = (options?: AuthorOptions) => {
+export const customAuthorsPlugin = (options?: AuthorOptions) => {
   return app => {
     return {
-      name: 'vuepress-plugin-authors',
+      name: 'vuepress-plugin-custom-authors',
       extendsPage: async page => {
         page.data.authorLabel =
           page.frontmatter?.authorLabel ?? options?.label ?? 'Authors';

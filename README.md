@@ -1,11 +1,11 @@
-# vuepress-plugin-authors
+# vuepress-plugin-custom-authors
 
 Add custom authors to the VuePress.
 
 ## Install
 
 ```shell
-yarn add vuepress-plugin-authors
+yarn add vuepress-plugin-custom-authors
 ```
 
 ## Config
@@ -15,11 +15,11 @@ Add it to your Vuepress configuration's plugin list:
 ```javascript
 // .vuepress/config.ts
 import { defineUserConfig } from 'vuepress';
-import { authorsPlugin } from 'vuepress-plugin-authors';
+import { customAuthorsPlugin } from 'vuepress-plugin-custom-authors';
 
 export default defineUserConfig({
   plugins: [
-    authorsPlugin({
+    customAuthorsPlugin({
       label: 'Your Custom Label', // Custom label text, default: Authors
     }),
   ],
